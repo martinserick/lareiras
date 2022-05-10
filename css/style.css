@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    margin: 50px auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header ul{
+    display: flex;
+}
+
+header ul li{
+    padding: 15px;
+    text-transform: uppercase;
+}
+
+header ul li a{
+    color: black;
+}
+
+header ul li a:hover{
+    color: #D1920D
+}
+
+/* MAIN */
+#quem_somos{
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#quem_somos h2{
+    font-size: 40px;
+}
+
+#quem_somos p{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+#produtos {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    width: 80%;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+#produtos_site h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.produto {
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 50px;
+    margin: 10px 10px;
+}
+
+.produto img{
+    border-radius: 50px;
+    border: none;
+}
+
+.produto h3{
+    font-size: 30px;
+    padding: 20px;
+}
+
+.produto p{
+    font-size: 20px;
+    text-align: left;
+    padding: 10px;
+    max-width: 300px;
+}
+.produto h5{
+    font-size: 30px;
+    padding: 10px;
+}
+
+#formulario {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#contato h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#formulario div h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+#formulario div p {
+    font-size: 20px;
+    text-align: center;
+}
+
+#formulario form{
+    max-width: 500px;
+    width: 500px;
+}
+
+#formulario input, textarea {
+    display: block;
+    margin: 10px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#btn--envio{
+    cursor: pointer;
+}
+
+#btn--envio:hover{
+    background-color: brown;
+    color: #fff;
+}
+/* FOOTER */
+
+footer {
+    /* background-color: #D1920D */
+    background-image: url(/img/wood_vertical.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+footer #rodape{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 100px;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    min-height: 300px;
+    text-align: center;
+}
+
+footer #dados_empresa{
+    font-size: 20px;
+}
+
+footer ul{
+    display: flex;
+}
+
+footer ul li{
+    padding: 10px;
+}
+
+#redes_sociais p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 35px;
+}
+
+#instagram:hover {
+    color: brown;
+}
+
+#facebook:hover {
+    color: blue;
+}
+
+#youtube:hover {
+    color: red;
+}
+
+#cotacao button{
+    border: none;
+    padding: 10px 45px;
+    border-radius: 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#cotacao button:hover{
+    background-color: grey;
+}
+
+footer #copy{
+    display: flex;
+    background-color: grey;
+    min-height: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+footer #copy p{
+    color: #fff;
+}
+
+@media only screen and(max-width: 576px){
+
+    .produto p{
+        font-size: 20px;
+        text-align: left;
+        padding: 10px;
+        max-width: 100%;
+    }
+
+}
