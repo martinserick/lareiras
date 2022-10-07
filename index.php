@@ -8,7 +8,7 @@
     <!-- Icones Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <!-- Link CSS do Projeto -->
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>.: Lareiras Ecológicas :.</title>
 </head>
 
